@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    @vite('resources/css/app.css', 'resources/js/app.js')
+    @vite(["resources/css/app.css", "resources/js/app.js"])
 </head>
 <body class="font-dm">
     <main class="flex flex-col">
